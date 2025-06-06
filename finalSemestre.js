@@ -94,5 +94,25 @@ adicionaArtefatos = inventarioAlpha.push(["O mecanismo de anticítera", "Terra",
 console.log("Depois de adicionar os artefatos especiais", inventarioAlpha);
 console.table(inventarioAlpha);
 
+//5.Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine
+console.log("Antes de subir o item para o topo da lista:", inventarioAlpha);
+console.table(inventarioAlpha);
+
+let sobeItemNaLista = inventarioAlpha.shift(["Cristal Rubion", "Plutão", 4500]);
+sobeItemNaLista = inventarioAlpha.unshift(["Estrelas", "Galáxia", 2900]);
+
+console.log("Depois de subir o item para o topo da lista", inventarioAlpha);
+console.table(inventarioAlpha);
+
+//6.Um item da Beta deve ser promovido para o início da lista para estudo prioritário
+console.log("Antes de promover o item", inventarioBeta);
+console.table(inventarioBeta);
+
+let promoveItem = inventarioBeta.shift(["Lâmina Solar", "Mercúrio", 6700]);
+promoveItem = inventarioBeta.unshift(["Planetas","Anel de Saturno", 4500]);
+
+console.log("Depois de promover o item no topo da lista", inventarioBeta);
+console.table(inventarioBeta);
+
 
 
