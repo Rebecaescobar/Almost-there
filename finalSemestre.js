@@ -124,5 +124,14 @@ excluirArtefato = inventarioAlpha.shift("Sol", "Lua", 1300);
 console.log("Depois de excluir o artfato", inventarioAlpha);
 console.table(inventarioAlpha);
 
+//8.O primeiro item da Beta pertence a um museu e deve ser removido
+console.log("Antes de remover o item", inventarioBeta);
+console.table(inventarioBeta);
+
+let removerItem = inventarioBeta.shift(["Lâmina Solar", "Mercúrio", 6700]);
+
+console.log("Depois de remover item", inventarioBeta);
+console.table(inventarioBeta);
+
 
 
