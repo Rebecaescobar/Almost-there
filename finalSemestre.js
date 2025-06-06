@@ -72,6 +72,15 @@ let inventarioAlpha = [
   
   console.log ("Depois da remoção da último item do Array", inventarioBeta);
   console.table(inventarioBeta);
-  
+
+
+//3.Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final
+console.log("Antes de adicionar:", inventarioAlpha);
+console.table(inventarioAlpha);
+
+let adicionarArtefatosAlpha = inventarioAlpha.push("manuscrito");
+
+console.log("Depois de adicionar artefatos", inventarioAlpha);
+console.table(inventarioAlpha)
 
 
