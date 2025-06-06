@@ -114,5 +114,15 @@ promoveItem = inventarioBeta.unshift(["Planetas","Anel de Saturno", 4500]);
 console.log("Depois de promover o item no topo da lista", inventarioBeta);
 console.table(inventarioBeta);
 
+//7.Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído
+console.log("Antes de excluir um artefato", inventarioAlpha);
+console.table(inventarioAlpha);
+
+let excluirArtefato = inventarioAlpha.unshift(["Sol","Lua", 1300]);
+excluirArtefato = inventarioAlpha.shift("Sol", "Lua", 1300);
+
+console.log("Depois de excluir o artfato", inventarioAlpha);
+console.table(inventarioAlpha);
+
 
 
