@@ -83,4 +83,16 @@ let adicionarArtefatosAlpha = inventarioAlpha.push("manuscrito");
 console.log("Depois de adicionar artefatos", inventarioAlpha);
 console.table(inventarioAlpha)
 
+//4.Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta
+console.log("Antes de adicionar os artefatos especiais:", inventarioAlpha );
+console.table(inventarioAlpha);
+
+let adicionaArtefatos = inventarioAlpha.push(["Os Manuscritos do Mar Morto","Terra",,13901]);
+adicionaArtefatos = inventarioAlpha.push(["A máscara de Tatancânea", "Terra",24004 ]);
+adicionaArtefatos = inventarioAlpha.push(["O mecanismo de anticítera", "Terra", 30012]);
+
+console.log("Depois de adicionar os artefatos especiais", inventarioAlpha);
+console.table(inventarioAlpha);
+
+
 
