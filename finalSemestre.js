@@ -59,7 +59,19 @@ let inventarioAlpha = [
   console.log("Antes da remoção:", inventarioAlpha,);
   console.table(inventarioAlpha);
 
-  let itemRemovido = inventarioAlpha.pop();
+  let itemRemovidoAlpha = inventarioAlpha.pop();
 
-  console.log ("Depois da remoção do último item do array:", invetarioAlpha);
+  console.log ("Depois da remoção do último item do array:", inventarioAlpha);
   console.log(inventarioAlpha)
+
+  //2.Um artefato obsoleto foi removido do final da lista Beta após avaliação técnica.
+  console.log("Antes da remoção:", inventarioBeta,);
+  console.table(inventarioBeta);
+
+  let itemRemovidoBeta = inventarioBeta.pop();
+  
+  console.log ("Depois da remoção da último item do Array", inventarioBeta);
+  console.table(inventarioBeta);
+  
+
+
