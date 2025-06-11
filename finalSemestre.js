@@ -134,6 +134,8 @@ console.log("Depois de remover item", inventarioBeta);
 console.table(inventarioBeta);
 
 // 11 Gere uma string com todos os planetas do inventário Alpha, separados por um delimitador.
-console.log()
+let planetas = ['Plutão','Júpiter','Saturno','Marte','Andrômeda','Venus','Lua','Sol'];
+console.log(`planetas com string: ${planetas.join('!')}`); 
+
 
 
